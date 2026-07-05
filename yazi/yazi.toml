@@ -1,0 +1,4 @@
+[opener]
+extensions = [
+  { ext = "md", run = 'code "$1"' },
+]
