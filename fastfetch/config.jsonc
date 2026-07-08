@@ -1,15 +1,24 @@
 //credit:https://github.com/Beastboy999cr/hyprland
 
 {
-  /////===== LOGO =====/////
-  "logo": {
-    "type": "kitty",
-    "source": "/home/pj/.config/fastfetch/*.png",
-    "height": 12,
-    "padding": {
-      "top": 1,
-      "left": 1,
-      "right": 1
+  /////===== IMAGE LOGO =====/////
+  // "logo": {
+  //   "type": "kitty",
+  //   "source": "/home/pj/.config/fastfetch/*.png",
+  //   "height": 12,
+  //   "padding": {
+  //     "top": 1,
+  //     "left": 1,
+  //     "right": 1
+  //   }
+  // },
+
+  /////===== Static ASCII LOGO =====/////
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/ascii_logo.txt",
+    "color": {
+        "1": "38;2;255;209;220"
     }
   },
 
@@ -23,10 +32,11 @@
       "key": "╭────────────╮",
       "keyColor": "red"
     },
+    // Had to manually change the user and host. Dont know how to shell this one correctly
     {
       "key": "│  User     │",
-      "type": "title",
-      "format": "{6}{7}{8}",
+      "type": "custom",
+      "format": "{#38;2;255;209;220}pj@cachyos{#}",
       "keyColor": "red"
     },
     {
