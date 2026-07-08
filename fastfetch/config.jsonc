@@ -1,87 +1,112 @@
+//credit:https://github.com/Beastboy999cr/hyprland
+
 {
-    "logo": {
-        "type": "kitty",
-        "source": "/home/pj/.config/fastfetch/*.png",
-        "width": 26,
-        "height": 12
+  /////===== LOGO =====/////
+  "logo": {
+    "type": "kitty",
+    "source": "/home/pj/.config/fastfetch/*.png",
+    "height": 12,
+    "padding": {
+      "top": 1,
+      "left": 1,
+      "right": 1
+    }
+  },
+
+  "display": {
+    "separator": " "
+  },
+  /////===== MODULES =====/////
+  "modules": [
+    {
+      "type": "custom",
+      "key": "╭────────────╮",
+      "keyColor": "red"
     },
-    "display": {
-        "separator": "   "
+    {
+      "key": "│  User     │",
+      "type": "title",
+      "format": "{6}{7}{8}",
+      "keyColor": "red"
     },
-    "modules": [
-        {
-            "type": "custom",
-            "format": " "
-        },
-        {
-            "type": "os",
-            "key": "",
-            "keyColor": "green",
-            "outputColor": "green",
-            "format": "{2}"
-        },
-        {
-            "type": "kernel",
-            "key": "",
-            "keyColor": "blue",
-            "outputColor": "blue",
-            "format": "{1}"
-        },
-        {
-            "type": "uptime",
-            "key": "",
-            "keyColor": "yellow",
-            "outputColor": "yellow",
-            "format": "{?1}{1}d {?}{?2}{2}h {?}{3} min"
-        },
-        {
-            "type": "packages",
-            "key": "󰏖",
-            "keyColor": "magenta",
-            "outputColor": "magenta",
-            "format": "{pacman}"
-        },
-        {
-            "type": "shell",
-            "key": "",
-            "keyColor": "yellow",
-            "outputColor": "yellow",
-            "format": "{1}"
-        },
-        {
-            "type": "wm",
-            "key": "",
-            "keyColor": "cyan",
-            "outputColor": "cyan",
-            "format": "{1}"
-        },
-        {
-            "type": "terminal",
-            "key": "",
-            "keyColor": "blue",
-            "outputColor": "blue",
-            "format": "{1}"
-        },
-        {
-            "type": "cpu",
-            "key": "",
-            "keyColor": "green",
-            "outputColor": "green",
-            "format": "{1}"
-        },
-        {
-            "type": "gpu",
-            "key": "󰢮",
-            "keyColor": "magenta",
-            "outputColor": "magenta",
-            "format": "{2}"
-        },
-        {
-            "type": "memory",
-            "key": "",
-            "keyColor": "yellow",
-            "outputColor": "yellow",
-            "format": "{1} / {2} ({3})"
-        }
-    ]
+    {
+      "type": "custom",
+      "key": "├────────────┤",
+      "keyColor": "red"
+    },
+    {
+      "type": "host",
+      "key": "│ 󰌢 Machine  │",
+      "keyColor": "red"
+    },
+    {
+      "type": "os",
+      "key": "│ {icon} OS       │",
+      "format": "{#38}{name} ",
+      "keyColor": "red"
+    },
+    {
+      "type": "kernel",
+      "key": "│  Kernel   │",
+      "keyColor": "red"
+    },
+    {
+      "type": "de",
+      "key": "│  DE       │",
+      "keyColor": "red"
+    },
+    {
+      "type": "wm",
+      "key": "│  WM       │",
+      "keyColor": "red"
+    },
+    {
+      "type": "terminal",
+      "key": "│  Terminal │",
+      "keyColor": "red"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏗 Packages │",
+      "keyColor": "red",
+      "disabled": [
+        "apk"
+      ],
+      "combined": false
+    },
+    {
+      "type": "memory",
+      "key": "│  Memory   │",
+      "format": "{#38}{used} / {total}{#keys} ",
+      "keyColor": "red"
+    },
+    {
+      "type": "disk",
+      "key": "│  Disk     │",
+      "format": "{#38}{size-used} / {size-total}{#keys} ",
+      "keyColor": "red"
+    },
+    {
+      "type": "cpu",
+      "key": "│  CPU      │",
+      "format": "{#38}{name} ({cores-logical}){#keys}",
+      "keyColor": "red"
+    },
+    {
+      "type": "gpu",
+      "key": "│  GPU      │",
+      "format": "{#38}{vendor} {name} ({type}){#keys}",
+      "keyColor": "red"
+    },
+    {
+      "type": "battery",
+      "key": "│  Battery  │",
+      "keyColor": "red"
+    },
+    {
+      "type": "custom",
+      "key": "╰────────────╯",
+      "keyColor": "red"
+    }
+  ]
 }

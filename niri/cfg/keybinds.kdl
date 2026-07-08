@@ -6,7 +6,119 @@ binds {
     // ─── noctalia-shell keybinds ───
     // https://docs.noctalia.dev/getting-started/keybinds/
 
-    Mod+Shift+ESCAPE                     { show-hotkey-overlay; }
+    
+
+    // ─── Applications ───
+    
+    
+    
+    
+    
+
+    // Please choose your own file manager.
+    
+
+    // ─── Media Controls ───
+    
+    
+    
+    
+    
+    
+    
+    
+
+    // ─── Brightness Controls ───
+    
+    
+
+    // ─── Window Movement and Focus ───
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    // ─── Workspace Switching ───
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    // ─── Layout Controls ───
+    
+    
+    
+    
+    
+    
+    
+
+    // ─── Modes ───
+    
+    
+    
+
+    // ─── Screenshots ───
+    
+    
+    
+
+    // ─── Emergency Escape Key ───
+    // Use this when a fullscreen app blocks your keybinds.
+    // It disables any active keyboard shortcut inhibitor, restoring control.
+    
+
+    // ─── Exit / Power ───
+    
+ // Also quits Niri
+    
+ // Turn off screens (useful for OLED or privacy)
+    
+ 
+    // ────────────── Keybindings ──────────────
+    // https://github.com/YaLTeR/niri/wiki/Configuration:-Key-Bindings
+
+    // ─── noctalia-shell keybinds ───
+    // https://docs.noctalia.dev/getting-started/keybinds/
+
+    Mod+Shift+Tab                     { show-hotkey-overlay; }
 
     // ─── Applications ───
     Mod+Return hotkey-overlay-title="Open Terminal: kitty" { spawn "kitty"; }
@@ -44,8 +156,8 @@ binds {
     Mod+CTRL+Down                       { move-window-down; }
 
     // ─── Workspace Switching ───
-    mod+right cooldown-ms=150 { focus-workspace-down; }
-    mod+left cooldown-ms=150 { focus-workspace-up; }
+    mod+down cooldown-ms=150 { focus-workspace-down; }
+    mod+up cooldown-ms=150 { focus-workspace-up; }
     Mod+CTRL+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
     Mod+CTRL+WheelScrollUp cooldown-ms=150 { move-column-to-workspace-up; }
 
@@ -85,8 +197,8 @@ binds {
     Mod+CTRL+F                          { expand-column-to-available-width; }
     Mod+C                               { center-column; }
     Mod+CTRL+C                          { center-visible-columns; }
-    Mod+Minus                           { set-column-width "-10%"; }
-    Mod+Equal                           { set-column-width "+10%"; }
+    Mod+Minus                           { set-column-width "-50%"; }
+    Mod+Equal                           { set-column-width "+50%"; }
     Mod+Shift+Minus                     { set-window-height "-10%"; }
     Mod+Shift+Equal                     { set-window-height "+10%"; }
 
