@@ -12,3 +12,6 @@ starship init fish | source
 # Setup for zoxide
 fish_add_path ~/.cargo/bin
 zoxide init fish | source
+
+# Setup yt-dlp (converts YT link to mp3)
+alias yt-dlp='yt-dlp -x --audio-format mp3 --audio-quality 0 --add-metadata'
