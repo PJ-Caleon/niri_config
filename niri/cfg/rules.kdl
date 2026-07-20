@@ -21,10 +21,10 @@
         place-within-backdrop true
 }
 
-    // ─── Rule 2: Override opacity for inactive windows ───
+    // ─── Rule 2: Override opacity for inactive windows ─── (Disabled)
     window-rule {
         match is-active=false
-        opacity 0.5
+        opacity 1.0
 }
 
 window-rule {
