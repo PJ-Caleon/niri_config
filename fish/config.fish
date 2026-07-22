@@ -1,7 +1,9 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 function fish_greeting
-    fastfetch --config ~/.config/fastfetch/config.jsonc
+    if not set -q NVIM
+        fastfetch --config ~/.config/fastfetch/config.jsonc
+    end
 end
 fish_add_path /home/pj/.spicetify
 
