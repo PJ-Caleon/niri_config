@@ -1,0 +1,21 @@
+{
+  "mpvSocket": "/tmp/mpv-socket",
+  "wallpapersFolder": "/home/pj/Pictures",
+  "profile": "default",
+  "fillMode": "fit",
+  "thumbCacheReady": true,
+  "volume": 0,
+  "active": true,
+  "currentWallpaper": "/home/pj/Pictures/sakura-forest-minecraft.1920x1080.mp4",
+  "hardwareAcceleration": false,
+  "automation": false,
+  "automationMode": "random",
+  "automationTime": 60,
+  "oldWallpapers": {
+    "eDP-1": {
+      "light": "/home/pj/Pictures/wallhaven_1p92yg.jpg",
+      "dark": "/home/pj/Pictures/wallhaven_wy1zkr.jpg"
+    }
+  },
+  "isPlaying": true
+}
