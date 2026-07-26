@@ -17,5 +17,4 @@
             width 5
             active-color "#eb6f92"    // Change this to whatever color code you want!
     }
-    default-column-display "normal"
 }
