@@ -1,0 +1,12 @@
+return {
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        pyright = { enabled = false },
+        basedpyright = { enabled = false },
+        ruff = { enabled = false },
+      },
+    },
+  },
+}
