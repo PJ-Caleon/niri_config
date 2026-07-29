@@ -100,34 +100,6 @@
                     "useDistroLogo": true
                 },
                 {
-                    "defaultSettings": {
-                        "batteryMinPercent": 0,
-                        "clockDuration": 3,
-                        "clockFont": "",
-                        "clockFormat": "%H:%M",
-                        "cursorHide": true,
-                        "cursorWarp": false,
-                        "dismissOnKey": true,
-                        "enabled": true,
-                        "excludeEffects": "dev_worm",
-                        "fadeInEffect": "",
-                        "fadeOutEffect": "",
-                        "frameRate": 60,
-                        "idleSeconds": 300,
-                        "includeEffects": "",
-                        "killCommand": "niri-screensaver-launch kill",
-                        "launcherCommand": "niri-screensaver-launch launch",
-                        "logoDir": "",
-                        "logoPath": "",
-                        "multiMonitorMode": "independent",
-                        "nowPlayingDuration": 3,
-                        "randomLogo": false,
-                        "showClock": false,
-                        "showNowPlaying": false
-                    },
-                    "id": "plugin:niri-screensaver"
-                },
-                {
                     "compactMode": true,
                     "diskPath": "/",
                     "iconColor": "none",
@@ -436,14 +408,14 @@
         "enabled": false,
         "performanceModeDisabled": "",
         "performanceModeEnabled": "",
-        "screenLock": "niri-screensaver-launch kill",
-        "screenUnlock": "niri-screensaver-launch kill",
+        "screenLock": "",
+        "screenUnlock": "",
         "session": "",
         "startup": "",
         "wallpaperChange": ""
     },
     "idle": {
-        "customCommands": "[{\"name\":\"Niri Screensaver\",\"timeout\":300,\"command\":\"niri-screensaver-launch launch\",\"resumeCommand\":\"niri-screensaver-launch kill\"}]",
+        "customCommands": "[]",
         "enabled": false,
         "fadeDuration": 5,
         "lockCommand": "",
@@ -656,7 +628,7 @@
         "translucentWidgets": true
     },
     "wallpaper": {
-        "automationEnabled": false,
+        "automationEnabled": true,
         "directory": "/home/pj/Pictures",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
@@ -672,7 +644,7 @@
         "overviewEnabled": false,
         "overviewTint": 0.6,
         "panelPosition": "follow_bar",
-        "randomIntervalSec": 300,
+        "randomIntervalSec": 1800,
         "setWallpaperOnAllMonitors": true,
         "showHiddenFiles": true,
         "skipStartupTransition": false,
