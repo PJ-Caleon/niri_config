@@ -17,3 +17,19 @@ zoxide init fish | source
 
 # Setup yt-dlp (converts YT link to mp3)
 alias yt-dlp='yt-dlp -x --audio-format mp3 --audio-quality 0 --add-metadata'
+
+# Function to display all packages
+function list_packages
+    echo "--- Pacman ---"
+    pacman -Q | wc -l
+    echo "--- Flatpak ---"
+    flatpak list --columns=application | wc -l
+    echo "--- npm global ---"
+    npm list -g --depth=0 2>/dev/null | tail -n +2 | wc -l
+    echo "--- pipx ---"
+    pipx list 2>/dev/null | grep -c package
+    echo "--- pip ---"
+    pip list 2>/dev/null | tail -n +2 | wc -l | string trim
+    echo "--- Cargo ---"
+    cargo install --list 2>/dev/null | grep -c "^[a-zA-Z0-9]" || echo 0
+end

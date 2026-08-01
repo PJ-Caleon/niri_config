@@ -9,8 +9,8 @@
     "padding": {
       "top": 1,
       "left": 1,
-      "right": 1
-    }
+      "right": 1,
+    },
   },
 
   // /////===== Static ASCII LOGO =====/////
@@ -23,100 +23,86 @@
   // },
 
   "display": {
-    "separator": " "
+    "separator": " ",
   },
   /////===== MODULES =====/////
   "modules": [
     {
       "type": "custom",
       "key": "╭────────────╮",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     // Had to manually change the user and host. Dont know how to shell this one correctly
     {
       "key": "│  User     │",
       "type": "custom",
       "format": "{#38;2;255;209;220}pj@cachyos{#}",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "custom",
       "key": "├────────────┤",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "host",
       "key": "│ 󰌢 Machine  │",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "os",
       "key": "│ {icon} OS       │",
       "format": "{#38}{name} ",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "kernel",
       "key": "│  Kernel   │",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "de",
       "key": "│  DE       │",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "wm",
       "key": "│  WM       │",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "terminal",
       "key": "│  Terminal │",
-      "keyColor": "red"
-    },
-    {
-      "type": "packages",
-      "key": "│ 󰏗 Packages │",
       "keyColor": "red",
-      "disabled": [
-        "apk"
-      ],
-      "combined": false
     },
     {
       "type": "memory",
       "key": "│  Memory   │",
       "format": "{#38}{used} / {total}{#keys} ",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "disk",
       "key": "│  Disk     │",
       "format": "{#38}{size-used} / {size-total}{#keys} ",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "cpu",
       "key": "│  CPU      │",
       "format": "{#38}{name} ({cores-logical}){#keys}",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "gpu",
       "key": "│  GPU      │",
       "format": "{#38}{vendor} {name} ({type}){#keys}",
-      "keyColor": "red"
-    },
-    {
-      "type": "battery",
-      "key": "│  Battery  │",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "custom",
       "key": "╰────────────╯",
-      "keyColor": "red"
-    }
-  ]
+      "keyColor": "red",
+    },
+  ],
 }
