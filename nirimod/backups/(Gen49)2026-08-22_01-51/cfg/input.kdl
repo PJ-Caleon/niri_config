@@ -13,11 +13,14 @@ input {
         natural-scroll // Enable natural (macOS-style) scrolling
     }
 
-    mouse { 
+    mouse {
+ 
 
 
 
-        accel-speed 0.49999999999999994
+        accel-speed 1.0
+
+        accel-profile "adaptive"
     }
     focus-follows-mouse // Automatically focus windows under the mouse pointer
     workspace-auto-back-and-forth // Enable workspace back & forth switching

@@ -13,7 +13,8 @@ input {
         natural-scroll // Enable natural (macOS-style) scrolling
     }
 
-    mouse { 
+    mouse {
+ 
 
 
 
