@@ -25,7 +25,7 @@
         "showIconBackground": false,
         "sortByMostUsed": false,
         "terminalCommand": "kitty -e",
-        "viewMode": "list"
+        "viewMode": "grid"
     },
     "audio": {
         "mprisBlacklist": [
@@ -43,7 +43,7 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 0.5,
-        "barType": "floating",
+        "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 2,
@@ -120,17 +120,6 @@
                     "textColor": "none",
                     "useMonospaceFont": true,
                     "usePadding": false
-                },
-                {
-                    "colorizeIcons": false,
-                    "hideMode": "transparent",
-                    "id": "ActiveWindow",
-                    "maxWidth": 145,
-                    "scrollingMode": "hover",
-                    "showIcon": true,
-                    "showText": false,
-                    "textColor": "none",
-                    "useFixedWidth": false
                 },
                 {
                     "defaultSettings": {
@@ -227,7 +216,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
+        "generationMethod": "vibrant",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
@@ -321,7 +310,7 @@
         "indicatorColor": "primary",
         "indicatorOpacity": 0.6,
         "indicatorThickness": 3,
-        "launcherIcon": "",
+        "launcherIcon": ">",
         "launcherIconColor": "none",
         "launcherPosition": "end",
         "launcherUseDistroLogo": false,
@@ -629,7 +618,7 @@
     },
     "wallpaper": {
         "automationEnabled": true,
-        "directory": "/home/pj/Pictures",
+        "directory": "/home/pj/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
@@ -662,13 +651,13 @@
         ],
         "useOriginalImages": false,
         "useSolidColor": false,
-        "useWallhaven": false,
-        "viewMode": "browse",
+        "useWallhaven": true,
+        "viewMode": "single",
         "wallhavenApiKey": "3GHAeyOuSCb6XScOEqSuTOlnMR0dINRR",
-        "wallhavenCategories": "010",
+        "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
-        "wallhavenPurity": "110",
-        "wallhavenQuery": "",
+        "wallhavenPurity": "100",
+        "wallhavenQuery": "rezero",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "1080",
         "wallhavenResolutionMode": "atleast",

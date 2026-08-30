@@ -118,7 +118,7 @@ binds {
     // ─── noctalia-shell keybinds ───
     // https://docs.noctalia.dev/getting-started/keybinds/
 
-    Mod+Shift+Tab                     { show-hotkey-overlay; }
+    Mod+K                     { show-hotkey-overlay; }
 
     // ─── Applications ───
     Mod+Return hotkey-overlay-title="Open Terminal: kitty" { spawn "kitty"; }
