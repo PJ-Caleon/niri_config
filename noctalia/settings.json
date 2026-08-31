@@ -651,18 +651,18 @@
         ],
         "useOriginalImages": false,
         "useSolidColor": false,
-        "useWallhaven": true,
+        "useWallhaven": false,
         "viewMode": "single",
         "wallhavenApiKey": "3GHAeyOuSCb6XScOEqSuTOlnMR0dINRR",
-        "wallhavenCategories": "111",
+        "wallhavenCategories": "010",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "rezero",
+        "wallhavenQuery": "",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "1080",
         "wallhavenResolutionMode": "atleast",
         "wallhavenResolutionWidth": "1920",
-        "wallhavenSorting": "favorites",
+        "wallhavenSorting": "views",
         "wallpaperChangeMode": "random"
     }
 }
