@@ -149,6 +149,8 @@ binds {
 
     ctrl+alt+left                            { focus-column-left; }
     ctrl+alt+right                           { focus-column-right; }
+    ctrl+alt+up                               { focus-workspace-up;}
+    ctrl+alt+down                           {focus-workspace-down;}
 
     Mod+CTRL+Left                       { move-column-left; }
     Mod+CTRL+Right                      { move-column-right; }
