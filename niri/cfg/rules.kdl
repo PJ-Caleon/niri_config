@@ -16,15 +16,25 @@ layer-rule {
   match namespace="^noctalia-wallpaper*"
   place-within-backdrop true
 }
-// ─── Rule 2: Override opacity for inactive windows ─── (Disabled)
 window-rule {
   match is-active=false
-  opacity 1.0
+  opacity 0.85
+  background-effect {
+    blur true
+  }
 }
 window-rule {
     match is-focused=true
+    draw-border-with-background false
     background-effect {
         blur true
     }
 }
-
+window-rule {
+  match app-id="obsidian"
+  match app-id="vesktop"
+  match app-id="helium"
+  match app-id="spotify"
+  match app-id="ferdium"
+  opacity 0.85
+}

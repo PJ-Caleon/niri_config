@@ -651,7 +651,7 @@
         ],
         "useOriginalImages": false,
         "useSolidColor": false,
-        "useWallhaven": false,
+        "useWallhaven": true,
         "viewMode": "single",
         "wallhavenApiKey": "3GHAeyOuSCb6XScOEqSuTOlnMR0dINRR",
         "wallhavenCategories": "010",
