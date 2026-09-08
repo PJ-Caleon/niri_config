@@ -33,7 +33,7 @@
         "preferredPlayer": "",
         "spectrumFrameRate": 30,
         "spectrumMirrored": true,
-        "visualizerType": "linear",
+        "visualizerType": "mirrored",
         "volumeFeedback": false,
         "volumeFeedbackSoundFile": "",
         "volumeOverdrive": false,
@@ -42,12 +42,12 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.5,
+        "backgroundOpacity": 0.2,
         "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
-        "contentPadding": 2,
-        "density": "compact",
+        "contentPadding": 0,
+        "density": "mini",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": true,
         "fontScale": 1,
@@ -75,9 +75,15 @@
         "showOnWorkspaceSwitch": true,
         "showOutline": false,
         "useSeparateOpacity": true,
-        "widgetSpacing": 6,
+        "widgetSpacing": 0,
         "widgets": {
             "center": [
+                {
+                    "colorName": "error",
+                    "hideWhenIdle": true,
+                    "id": "AudioVisualizer",
+                    "width": 500
+                },
                 {
                     "clockColor": "none",
                     "customFont": "",
@@ -86,6 +92,12 @@
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": false
+                },
+                {
+                    "colorName": "error",
+                    "hideWhenIdle": true,
+                    "id": "AudioVisualizer",
+                    "width": 500
                 }
             ],
             "left": [
@@ -295,13 +307,13 @@
     },
     "dock": {
         "animationSpeed": 1,
-        "backgroundOpacity": 1,
+        "backgroundOpacity": 0,
         "colorizeIcons": false,
-        "deadOpacity": 0.6,
+        "deadOpacity": 0.27,
         "displayMode": "always_visible",
         "dockType": "floating",
         "enabled": false,
-        "floatingRatio": 1,
+        "floatingRatio": 0,
         "groupApps": false,
         "groupClickAction": "cycle",
         "groupContextMenuMode": "extended",
