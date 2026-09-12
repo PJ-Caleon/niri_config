@@ -3,15 +3,15 @@ palette = "catppuccin_mocha"
 
 [character]
 # Note the use of Catppuccin color 'maroon'
-success_symbol = "[❯](maroon)"
+success_symbol = "[❯](fg:#eb6f92)"
 error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
 [directory]
-format = "[](fg:#26233a bg:none)[✿](fg:#eb6f92 bg:#26233a)[](fg:#26233a bg:#eb6f92)[ $path]($style)[](fg:#eb6f92 bg:none) "
+format = "[✿](fg:#eb6f92)[ $path](fg:#eb6f92 bg:none) "
 style = "fg:#26233a bg:#eb6f92 bold"
 truncation_length = 3
-truncate_to_repo = false
+truncate_to_repo = true
 home_symbol = "~"
 
 # palette tables should be last in the config ⚓️

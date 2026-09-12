@@ -6,7 +6,7 @@
         "clipboardWrapText": true,
         "customLaunchPrefix": "",
         "customLaunchPrefixEnabled": false,
-        "density": "default",
+        "density": "compact",
         "enableClipPreview": true,
         "enableClipboardChips": true,
         "enableClipboardHistory": false,
@@ -102,16 +102,6 @@
             ],
             "left": [
                 {
-                    "colorizeSystemIcon": "error",
-                    "colorizeSystemText": "none",
-                    "customIconPath": "",
-                    "enableColorization": true,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": true
-                },
-                {
                     "compactMode": true,
                     "diskPath": "/",
                     "iconColor": "none",
@@ -195,10 +185,6 @@
                     "id": "Battery",
                     "showNoctaliaPerformance": false,
                     "showPowerProfiles": false
-                },
-                {
-                    "iconColor": "error",
-                    "id": "SessionMenu"
                 }
             ]
         }
