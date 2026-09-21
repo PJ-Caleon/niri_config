@@ -214,6 +214,7 @@ binds {
     CTRL+Shift+2                        { screenshot-screen; }
     CTRL+Shift+3                        { screenshot-window; }
     CTRL+Shift+S                        { spawn-sh "flameshot gui"; }
+    CTRL+Shift+F                        { spawn-sh "flameshot gui --region '1920x1080+0+0'"; }
 
     // ─── Emergency Escape Key ───
     // Use this when a fullscreen app blocks your keybinds.

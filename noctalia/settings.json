@@ -102,14 +102,14 @@
             ],
             "left": [
                 {
-                    "compactMode": true,
+                    "compactMode": false,
                     "diskPath": "/",
                     "iconColor": "none",
                     "id": "SystemMonitor",
                     "showCpuCores": false,
                     "showCpuFreq": false,
                     "showCpuTemp": true,
-                    "showCpuUsage": true,
+                    "showCpuUsage": false,
                     "showDiskAvailable": false,
                     "showDiskUsage": false,
                     "showDiskUsageAsPercent": false,
@@ -172,14 +172,14 @@
                     "textColor": "none"
                 },
                 {
-                    "displayMode": "onhover",
+                    "displayMode": "alwaysShow",
                     "iconColor": "none",
                     "id": "Network",
                     "textColor": "none"
                 },
                 {
-                    "deviceNativePath": "__default__",
-                    "displayMode": "graphic-clean",
+                    "deviceNativePath": "BAT1",
+                    "displayMode": "icon-always",
                     "hideIfIdle": false,
                     "hideIfNotDetected": true,
                     "id": "Battery",
@@ -652,7 +652,7 @@
         "useWallhaven": false,
         "viewMode": "single",
         "wallhavenApiKey": "3GHAeyOuSCb6XScOEqSuTOlnMR0dINRR",
-        "wallhavenCategories": "110",
+        "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
         "wallhavenQuery": "dark",
@@ -660,7 +660,7 @@
         "wallhavenResolutionHeight": "1080",
         "wallhavenResolutionMode": "atleast",
         "wallhavenResolutionWidth": "1920",
-        "wallhavenSorting": "favorites",
+        "wallhavenSorting": "toplist",
         "wallpaperChangeMode": "random"
     }
 }
