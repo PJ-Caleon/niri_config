@@ -1,10 +1,5 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-function fish_greeting
-    if not set -q NVIM
-        fastfetch --config ~/.config/fastfetch/config.jsonc
-    end
-end
 fish_add_path /home/pj/.spicetify
 
 set -gx LC_TIME en_US.UTF-8
@@ -33,3 +28,5 @@ function list_packages
     echo "--- Cargo ---"
     cargo install --list 2>/dev/null | grep -c "^[a-zA-Z0-9]" || echo 0
 end
+
+# claude completion fish | source

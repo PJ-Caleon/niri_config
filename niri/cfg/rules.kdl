@@ -31,9 +31,8 @@ window-rule {
     }
 }
 window-rule {
-  match app-id="obsidian"
   match app-id="vesktop"
-  match app-id="spotify"
-  match app-id="ferdium"
+  match app-id="Spotify"
+  match app-id="Ferdium"
   opacity 0.85
 }
