@@ -28,6 +28,3 @@ function list_packages
     echo "--- Cargo ---"
     cargo install --list 2>/dev/null | grep -c "^[a-zA-Z0-9]" || echo 0
 end
-
-# opencode
-fish_add_path /home/pj/.opencode/bin
